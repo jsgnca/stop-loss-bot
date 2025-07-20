@@ -1,7 +1,4 @@
-# price_feed.py
-
 import logging
-from ib_insync import util
 
 def subscribe_to_price_updates(ib, contract):
     """
@@ -9,10 +6,16 @@ def subscribe_to_price_updates(ib, contract):
     Keeps the ticker updated for price retrieval.
     """
     ticker = ib.reqMktData(contract, '', False, False)
-    util.sleep(2)  # Give it some time to fetch data
+    ib.sleep(2)  # Non-blocking sleep to allow data to stream
+
+    attempts = 0
+    while ticker.last is None and attempts < 5:
+        logging.warning("Waiting for market data...")
+        ib.sleep(1)
+        attempts += 1
 
     if ticker.last is None:
-        logging.warning("Last price not available yet.")
+        logging.warning("Last price not available after several attempts.")
     else:
         logging.info(f"Initial price for {contract.symbol}: {ticker.last}")
 

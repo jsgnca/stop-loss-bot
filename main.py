@@ -9,21 +9,24 @@ import time
 
 def main():
     logger = setup_logger("stop_loss_bot")
-    
+    ib = None  # initialize outside try for safe access in finally
+
     try:
+        logger.info("Connecting to IBKR...")
         ib = connect_to_ibkr()
+
+        logger.info(f"Defining contract for symbol: {OPTION_SYMBOL}")
         option_contract = define_option_contract(OPTION_SYMBOL)
 
         logger.info(f"Monitoring contract: {option_contract}")
         logger.info(f"Stop-loss price set at: ${STOP_PRICE}")
 
         # Run the stop-loss monitor loop
-        monitor_stop_loss(ib, option_contract)
+        monitor_stop_loss(ib, option_contract, STOP_PRICE, logger)
 
     except Exception as e:
-        logger.error(f"Exception occurred: {e}")
+        logger.exception(f"Exception occurred during monitoring: {e}")
     finally:
-        time.sleep(1)
         if ib and ib.isConnected():
             ib.disconnect()
             logger.info("Disconnected from IBKR.")
