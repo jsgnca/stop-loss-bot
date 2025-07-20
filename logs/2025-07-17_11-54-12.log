@@ -1,0 +1,32 @@
+2025-07-17 11:54:12,865 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-07-17 11:54:12,866 - INFO - Connected
+2025-07-17 11:54:12,870 - INFO - Logged on to server version 176
+2025-07-17 11:54:12,872 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-07-17 11:54:12,873 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-07-17 11:54:12,873 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-07-17 11:54:12,873 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-07-17 11:54:12,873 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-07-17 11:54:12,873 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-07-17 11:54:12,874 - INFO - API connection ready
+2025-07-17 11:54:12,876 - INFO - position: Position(account='DUN086112', contract=Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA'), position=1.0, avgCost=345.57365)
+2025-07-17 11:54:13,087 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA'), position=1.0, marketPrice=3.54999995, marketValue=355.0, averageCost=345.57365, unrealizedPNL=9.43, realizedPNL=0.0, account='DUN086112')
+2025-07-17 11:54:13,190 - INFO - execDetails Execution(execId='00019388.6878797e.01.01', time=datetime.datetime(2025, 7, 17, 15, 7, 41, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=3.45, permId=1824980777, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=3.45, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-07-17 11:54:13,191 - INFO - commissionReport: CommissionReport(execId='00019388.6878797e.01.01', commission=0.57365, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-07-17 11:54:13,191 - INFO - Synchronization complete
+2025-07-17 11:54:13,283 - INFO - Monitoring TSLA option for stop-loss trigger at $1.88...
+2025-07-17 11:54:13,285 - ERROR - Error 10168, reqId 4: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:15,284 - INFO - Initial price for TSLA: nan
+2025-07-17 11:54:15,289 - ERROR - Error 10168, reqId 5: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:16,287 - INFO - Current Price: nan | Loss: nan% | Stop Loss: -25%
+2025-07-17 11:54:17,290 - ERROR - Error 10168, reqId 6: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:18,289 - INFO - Current Price: nan | Loss: nan% | Stop Loss: -25%
+2025-07-17 11:54:19,298 - ERROR - Error 10168, reqId 7: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:20,296 - INFO - Current Price: nan | Loss: nan% | Stop Loss: -25%
+2025-07-17 11:54:21,300 - ERROR - Error 10168, reqId 8: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:22,299 - INFO - Current Price: nan | Loss: nan% | Stop Loss: -25%
+2025-07-17 11:54:23,305 - ERROR - Error 10168, reqId 9: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:24,305 - INFO - Current Price: nan | Loss: nan% | Stop Loss: -25%
+2025-07-17 11:54:25,309 - ERROR - Error 10168, reqId 10: Requested market data is not subscribed. Delayed market data is not enabled., contract: Option(conId=793846713, symbol='TSLA', lastTradeDateOrContractMonth='20250718', strike=322.5, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250718P00322500', tradingClass='TSLA')
+2025-07-17 11:54:25,666 - INFO - Bot manually stopped.
+2025-07-17 11:54:25,667 - INFO - Disconnecting from 127.0.0.1:7497, 851 B sent in 16 messages, 21.6 kB received in 412 messages, session time 12.8 s.
+2025-07-17 11:54:25,667 - INFO - Disconnecting
