@@ -1,0 +1,25 @@
+2025-07-22 13:12:45,815 - INFO - Connecting to IBKR...
+2025-07-22 13:12:45,819 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-07-22 13:12:45,820 - INFO - Connected
+2025-07-22 13:12:45,893 - INFO - Logged on to server version 176
+2025-07-22 13:12:45,966 - INFO - API connection ready
+2025-07-22 13:12:45,982 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-07-22 13:12:45,984 - INFO - position: Position(account='DUN086112', contract=Option(conId=789623716, symbol='TSLA', lastTradeDateOrContractMonth='20250725', strike=330.0, right='P', multiplier='100', currency='USD', localSymbol='TSLA  250725P00330000', tradingClass='TSLA'), position=1.0, avgCost=1141.51365)
+2025-07-22 13:12:45,984 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-07-22 13:12:45,985 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-07-22 13:12:45,985 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-07-22 13:12:45,985 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-07-22 13:12:45,985 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-07-22 13:12:46,367 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=789623716, symbol='TSLA', lastTradeDateOrContractMonth='20250725', strike=330.0, right='P', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='TSLA  250725P00330000', tradingClass='TSLA'), position=1.0, marketPrice=11.43034935, marketValue=1143.03, averageCost=1141.51365, unrealizedPNL=1.52, realizedPNL=0.0, account='DUN086112')
+2025-07-22 13:12:46,426 - INFO - execDetails Execution(execId='0001938b.687f1b0d.01.01', time=datetime.datetime(2025, 7, 22, 15, 54, 28, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='MEMX', side='BOT', shares=1.0, price=11.4, permId=1693470974, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=11.4, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-07-22 13:12:46,432 - INFO - commissionReport: CommissionReport(execId='0001938b.687f1b0d.01.01', commission=1.51365, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-07-22 13:12:46,435 - INFO - Synchronization complete
+2025-07-22 13:12:46,435 - INFO - Defining option contract: TSLA 20250725 330 P
+2025-07-22 13:12:46,575 - INFO - Monitoring contract: Option(conId=789623716, symbol='TSLA', lastTradeDateOrContractMonth='20250725', strike=330.0, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250725P00330000', tradingClass='TSLA')
+2025-07-22 13:12:46,575 - INFO - Stop-loss price set at: $10.26
+2025-07-22 13:12:46,576 - INFO - Subscribing to market data...
+2025-07-22 13:12:46,645 - ERROR - Error 10091, reqId 4: Part of requested market data requires additional subscription for API. See link in 'Market Data Connections' dialog for more details.TSLA NASDAQ.NMS/TOP/ALL, contract: Option(conId=789623716, symbol='TSLA', lastTradeDateOrContractMonth='20250725', strike=330.0, right='P', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250725P00330000', tradingClass='TSLA')
+2025-07-22 13:12:48,079 - INFO - Price: 11.49 | Loss: 0.79% | Trigger: -10%
+2025-07-22 13:12:48,081 - INFO - Disconnecting from 127.0.0.1:7497, 276 B sent in 11 messages, 22.4 kB received in 434 messages, session time 2.26 s.
+2025-07-22 13:12:48,082 - INFO - Disconnecting
+2025-07-22 13:12:48,083 - INFO - Disconnected from IBKR.

@@ -1,0 +1,38 @@
+2025-07-22 13:08:35,741 - INFO - Connecting to IBKR...
+2025-07-22 13:08:35,742 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-07-22 13:08:35,743 - INFO - Disconnecting
+2025-07-22 13:08:35,743 - ERROR - API connection failed: ConnectionRefusedError(61, "Connect call failed ('127.0.0.1', 7497)")
+2025-07-22 13:08:35,743 - ERROR - Make sure API port on TWS/IBG is open
+2025-07-22 13:08:35,743 - ERROR - Exception occurred during monitoring: [Errno 61] Connect call failed ('127.0.0.1', 7497)
+Traceback (most recent call last):
+  File "/Users/johnslaptop/stop loss bot/main.py", line 16, in main
+    ib = connect_to_ibkr()
+  File "/Users/johnslaptop/stop loss bot/ibkr_setup.py", line 7, in connect_to_ibkr
+    ib.connect('127.0.0.1', 7497, clientId=1)  # Port 7497 = paper trading
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/ib.py", line 279, in connect
+    return self._run(self.connectAsync(
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/ib.py", line 318, in _run
+    return util.run(*awaitables, timeout=self.RequestTimeout)
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/util.py", line 341, in run
+    result = loop.run_until_complete(task)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/ib.py", line 1748, in connectAsync
+    await self.client.connectAsync(host, port, clientId, timeout)
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/client.py", line 211, in connectAsync
+    await asyncio.wait_for(self.conn.connectAsync(host, port), timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/johnslaptop/Library/Python/3.9/lib/python/site-packages/ib_insync/connection.py", line 39, in connectAsync
+    self.transport, _ = await loop.create_connection(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1056, in create_connection
+    raise exceptions[0]
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1041, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 955, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 61] Connect call failed ('127.0.0.1', 7497)
