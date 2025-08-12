@@ -4,7 +4,7 @@ from ib_insync import IB, Option
 
 def connect_to_ibkr():
     ib = IB()
-    ib.connect('127.0.0.1', 7497, clientId=1)  # Port 7497 = paper trading
+    ib.connect('127.0.0.1', 7497, clientId=1, timeout=10)  # Port 7497 = paper trading
     return ib
 
 def define_option_contract(ib, symbol, expiry, strike, right):

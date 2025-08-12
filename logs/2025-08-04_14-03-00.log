@@ -1,0 +1,65 @@
+2025-08-04 14:03:00,374 - INFO - Connecting to IBKR...
+2025-08-04 14:03:00,375 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-04 14:03:00,375 - INFO - Connected
+2025-08-04 14:03:00,398 - INFO - Logged on to server version 176
+2025-08-04 14:03:00,398 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-04 14:03:00,398 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-08-04 14:03:00,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-08-04 14:03:00,399 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-04 14:03:00,400 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-04 14:03:00,400 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-04 14:03:00,401 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-04 14:03:00,401 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-04 14:03:00,402 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-04 14:03:00,402 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-04 14:03:00,403 - INFO - API connection ready
+2025-08-04 14:03:00,404 - INFO - position: Position(account='DUN086112', contract=Option(conId=800902076, symbol='SPY', lastTradeDateOrContractMonth='20250804', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250804C00630000', tradingClass='SPY'), position=10.0, avgCost=49.03145)
+2025-08-04 14:03:00,506 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=800902076, symbol='SPY', lastTradeDateOrContractMonth='20250804', strike=630.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250804C00630000', tradingClass='SPY'), position=10.0, marketPrice=0.51293365, marketValue=512.93, averageCost=49.03145, unrealizedPNL=22.62, realizedPNL=-168.21, account='DUN086112')
+2025-08-04 14:03:00,522 - INFO - execDetails Execution(execId='00020057.6890cb50.01.01', time=datetime.datetime(2025, 8, 4, 16, 15, 55, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='BOT', shares=10.0, price=0.69, permId=1909400772, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.69, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,523 - INFO - execDetails Execution(execId='00020057.6890dce0.01.01', time=datetime.datetime(2025, 8, 4, 17, 16, 55, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='SLD', shares=10.0, price=0.9, permId=1909400776, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.9, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,524 - INFO - execDetails Execution(execId='00020057.6890dd11.01.01', time=datetime.datetime(2025, 8, 4, 17, 17, 24, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='BATS', side='BOT', shares=1.0, price=0.91, permId=1909400783, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.91, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,524 - INFO - execDetails Execution(execId='00020057.6890dd3e.01.01', time=datetime.datetime(2025, 8, 4, 17, 17, 50, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=1.0, price=0.84, permId=1909400787, clientId=1, orderId=885, liquidation=0, cumQty=1.0, avgPrice=0.84, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,525 - INFO - execDetails Execution(execId='00020057.6890dd54.01.01', time=datetime.datetime(2025, 8, 4, 17, 18, 2, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.89, permId=1909400786, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.89, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,525 - INFO - execDetails Execution(execId='00020057.6890de43.01.01', time=datetime.datetime(2025, 8, 4, 17, 20, 42, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=1.0, price=0.8, permId=1909400791, clientId=1, orderId=925, liquidation=0, cumQty=1.0, avgPrice=0.8, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,526 - INFO - execDetails Execution(execId='00020057.6890df39.01.01', time=datetime.datetime(2025, 8, 4, 17, 22, 40, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=10.0, price=0.78, permId=1909400790, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.78, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,527 - INFO - execDetails Execution(execId='00020057.6890e3ca.01.01', time=datetime.datetime(2025, 8, 4, 17, 38, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=1.0, price=0.68, permId=1909400797, clientId=1, orderId=1148, liquidation=0, cumQty=1.0, avgPrice=0.68, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,527 - INFO - execDetails Execution(execId='00020057.6890e3cb.01.01', time=datetime.datetime(2025, 8, 4, 17, 38, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=9.0, price=0.68, permId=1909400797, clientId=1, orderId=1148, liquidation=0, cumQty=10.0, avgPrice=0.68, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,528 - INFO - execDetails Execution(execId='00020057.6890e468.01.01', time=datetime.datetime(2025, 8, 4, 17, 40, 13, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='BOT', shares=10.0, price=0.71, permId=1909400796, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.71, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,528 - INFO - execDetails Execution(execId='00020057.6890e4a4.01.01', time=datetime.datetime(2025, 8, 4, 17, 41, 5, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=10.0, price=0.63, permId=1909400801, clientId=1, orderId=1164, liquidation=0, cumQty=10.0, avgPrice=0.63, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,529 - INFO - execDetails Execution(execId='00020057.6890e530.01.01', time=datetime.datetime(2025, 8, 4, 17, 42, 56, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.66, permId=1909400800, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.66, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,530 - INFO - execDetails Execution(execId='00020057.6890e541.01.01', time=datetime.datetime(2025, 8, 4, 17, 43, 23, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=1.0, price=0.61, permId=1909400805, clientId=1, orderId=1174, liquidation=0, cumQty=1.0, avgPrice=0.61, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,531 - INFO - execDetails Execution(execId='00020057.6890ec09.01.01', time=datetime.datetime(2025, 8, 4, 17, 53, 55, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=10.0, price=0.59, permId=1909400804, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.59, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,531 - INFO - execDetails Execution(execId='00020057.6890edfc.01.01', time=datetime.datetime(2025, 8, 4, 17, 57, 4, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='NASDAQBX', side='SLD', shares=10.0, price=0.48, permId=1909400862, clientId=1, orderId=1179, liquidation=0, cumQty=10.0, avgPrice=0.48, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,532 - INFO - execDetails Execution(execId='00020057.6890ee05.01.01', time=datetime.datetime(2025, 8, 4, 17, 57, 23, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='NASDAQBX', side='BOT', shares=10.0, price=0.48, permId=1909400847, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.48, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-04 14:03:00,533 - INFO - commissionReport: CommissionReport(execId='00020057.6890cb50.01.01', commission=7.0145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,533 - INFO - commissionReport: CommissionReport(execId='00020057.6890dce0.01.01', commission=5.1424, currency='USD', realizedPNL=197.8431, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,534 - INFO - commissionReport: CommissionReport(execId='00020057.6890dd11.01.01', commission=1.50145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,534 - INFO - commissionReport: CommissionReport(execId='00020057.6890dd3e.01.01', commission=1.05424, currency='USD', realizedPNL=-9.55569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,535 - INFO - commissionReport: CommissionReport(execId='00020057.6890dd54.01.01', commission=0.86145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,535 - INFO - commissionReport: CommissionReport(execId='00020057.6890de43.01.01', commission=1.05424, currency='USD', realizedPNL=-10.91569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,536 - INFO - commissionReport: CommissionReport(execId='00020057.6890df39.01.01', commission=5.1145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,538 - INFO - commissionReport: CommissionReport(execId='00020057.6890e3ca.01.01', commission=1.05424, currency='USD', realizedPNL=-11.56569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,538 - INFO - commissionReport: CommissionReport(execId='00020057.6890e3cb.01.01', commission=9.48816, currency='USD', realizedPNL=-104.09121, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,539 - INFO - commissionReport: CommissionReport(execId='00020057.6890e468.01.01', commission=7.0145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,539 - INFO - commissionReport: CommissionReport(execId='00020057.6890e4a4.01.01', commission=10.5424, currency='USD', realizedPNL=-97.5569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,539 - INFO - commissionReport: CommissionReport(execId='00020057.6890e530.01.01', commission=0.86145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,540 - INFO - commissionReport: CommissionReport(execId='00020057.6890e541.01.01', commission=1.05424, currency='USD', realizedPNL=-6.91569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,540 - INFO - commissionReport: CommissionReport(execId='00020057.6890ec09.01.01', commission=5.1145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,541 - INFO - commissionReport: CommissionReport(execId='00020057.6890edfc.01.01', commission=10.3424, currency='USD', realizedPNL=-125.4569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,541 - INFO - commissionReport: CommissionReport(execId='00020057.6890ee05.01.01', commission=10.3145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-04 14:03:00,542 - INFO - Synchronization complete
+2025-08-04 14:03:00,542 - INFO - Connected to IBKR. Starting all-day monitoring...
+2025-08-04 14:03:00,543 - INFO - Starting real-time stop-loss monitoring...
+2025-08-04 14:03:00,544 - INFO - position: Position(account='DUN086112', contract=Option(conId=800902076, symbol='SPY', lastTradeDateOrContractMonth='20250804', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250804C00630000', tradingClass='SPY'), position=10.0, avgCost=49.03145)
+2025-08-04 14:03:01,552 - INFO - Detected position: SPY   250804C00630000 | Quantity: 10.0
+2025-08-04 14:03:02,081 - ERROR - Unexpected error during monitoring: place_sell_order() missing 1 required positional argument: 'logger'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\main.py", line 20, in main
+    monitor_all_positions(ib, logger)
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 55, in monitor_all_positions
+    trade = place_sell_order(ib, contract, quantity, bid_price)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_sell_order() missing 1 required positional argument: 'logger'
+2025-08-04 14:03:02,082 - INFO - Disconnecting from 127.0.0.1:7497, 319 B sent in 11 messages, 33.6 kB received in 479 messages, session time 1.71 s.
+2025-08-04 14:03:02,083 - INFO - Disconnecting
+2025-08-04 14:03:02,083 - INFO - Disconnected from IBKR.

@@ -1,0 +1,31 @@
+2025-08-01 12:43:21,579 - INFO - Connecting to IBKR...
+2025-08-01 12:43:21,580 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-01 12:43:21,582 - INFO - Connected
+2025-08-01 12:43:21,584 - INFO - Logged on to server version 176
+2025-08-01 12:43:21,585 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-01 12:43:21,586 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-08-01 12:43:21,586 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-01 12:43:21,586 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-01 12:43:21,587 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-01 12:43:21,587 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-01 12:43:21,588 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-01 12:43:21,588 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-01 12:43:21,588 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-01 12:43:21,589 - INFO - API connection ready
+2025-08-01 12:43:21,590 - INFO - position: Position(account='DUN086112', contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, avgCost=55.86145)
+2025-08-01 12:43:21,791 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, marketPrice=0.56, marketValue=56.0, averageCost=55.86145, unrealizedPNL=0.14, realizedPNL=-36.91, account='DUN086112')
+2025-08-01 12:43:21,909 - INFO - execDetails Execution(execId='00020057.688d141e.01.01', time=datetime.datetime(2025, 8, 1, 16, 37, 42, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.88, permId=1494422454, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.88, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-01 12:43:21,909 - INFO - execDetails Execution(execId='00020057.688d161d.01.01', time=datetime.datetime(2025, 8, 1, 16, 42, 41, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='EDGX', side='SLD', shares=1.0, price=0.53, permId=1494422461, clientId=1, orderId=5, liquidation=0, cumQty=1.0, avgPrice=0.53, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=1)
+2025-08-01 12:43:21,911 - INFO - execDetails Execution(execId='00020057.688d1637.01.01', time=datetime.datetime(2025, 8, 1, 16, 42, 53, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.55, permId=1494422458, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.55, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-01 12:43:21,911 - INFO - commissionReport: CommissionReport(execId='00020057.688d141e.01.01', commission=0.86145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-01 12:43:21,912 - INFO - commissionReport: CommissionReport(execId='00020057.688d161d.01.01', commission=1.04424, currency='USD', realizedPNL=-36.90569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-01 12:43:21,912 - INFO - commissionReport: CommissionReport(execId='00020057.688d1637.01.01', commission=0.86145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-01 12:43:21,913 - INFO - Synchronization complete
+2025-08-01 12:43:21,913 - INFO - Defining option contract: SPY 20250801 625 C
+2025-08-01 12:43:21,952 - INFO - Monitoring contract: Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY')
+2025-08-01 12:43:21,952 - INFO - Stop-loss price set at: $0.52
+2025-08-01 12:43:21,953 - INFO - Subscribing to market data...
+2025-08-01 12:43:23,454 - INFO - Bid: 0.53 | Loss: -3.64% | Trigger: -5%
+2025-08-01 12:43:23,454 - INFO - Disconnecting from 127.0.0.1:7497, 273 B sent in 11 messages, 24.2 kB received in 452 messages, session time 1.87 s.
+2025-08-01 12:43:23,455 - INFO - Disconnecting
+2025-08-01 12:43:23,455 - INFO - Disconnected from IBKR.

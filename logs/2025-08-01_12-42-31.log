@@ -1,0 +1,28 @@
+2025-08-01 12:42:31,303 - INFO - Connecting to IBKR...
+2025-08-01 12:42:31,303 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-01 12:42:31,304 - INFO - Connected
+2025-08-01 12:42:31,306 - INFO - Logged on to server version 176
+2025-08-01 12:42:31,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-01 12:42:31,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-08-01 12:42:31,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-01 12:42:31,307 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-01 12:42:31,308 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-01 12:42:31,308 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-01 12:42:31,308 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-01 12:42:31,309 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-01 12:42:31,309 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-01 12:42:31,310 - INFO - API connection ready
+2025-08-01 12:42:31,311 - INFO - position: Position(account='DUN086112', contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, avgCost=88.86145)
+2025-08-01 12:42:31,513 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, marketPrice=0.64, marketValue=64.0, averageCost=88.86145, unrealizedPNL=-24.86, realizedPNL=0.0, account='DUN086112')
+2025-08-01 12:42:31,630 - INFO - execDetails Execution(execId='00020057.688d141e.01.01', time=datetime.datetime(2025, 8, 1, 16, 37, 42, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.88, permId=1494422454, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.88, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-01 12:42:31,631 - INFO - commissionReport: CommissionReport(execId='00020057.688d141e.01.01', commission=0.86145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-01 12:42:31,632 - INFO - Synchronization complete
+2025-08-01 12:42:31,632 - INFO - Defining option contract: SPY 20250801 625 C
+2025-08-01 12:42:31,674 - INFO - Monitoring contract: Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY')
+2025-08-01 12:42:31,675 - INFO - Stop-loss price set at: $0.7
+2025-08-01 12:42:31,675 - INFO - Subscribing to market data...
+2025-08-01 12:42:33,168 - INFO - Bid: 0.53 | Loss: -39.77% | Trigger: -20%
+2025-08-01 12:42:33,174 - INFO - placeOrder: New order Trade(contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), order=LimitOrder(orderId=5, clientId=1, action='SELL', totalQuantity=1, lmtPrice=0.53), orderStatus=OrderStatus(orderId=5, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 8, 1, 16, 42, 33, 174959, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-08-01 12:42:35,190 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 12 messages, 23.7 kB received in 479 messages, session time 3.89 s.
+2025-08-01 12:42:35,191 - INFO - Disconnecting
+2025-08-01 12:42:35,192 - INFO - Disconnected from IBKR.

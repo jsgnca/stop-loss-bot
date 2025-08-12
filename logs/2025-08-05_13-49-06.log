@@ -1,0 +1,60 @@
+2025-08-05 13:49:06,844 - INFO - Connecting to IBKR...
+2025-08-05 13:49:06,844 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-05 13:49:06,845 - INFO - Connected
+2025-08-05 13:49:06,847 - INFO - Logged on to server version 176
+2025-08-05 13:49:06,848 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-05 13:49:06,848 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-08-05 13:49:06,848 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-08-05 13:49:06,848 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-05 13:49:06,849 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-05 13:49:06,849 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-05 13:49:06,850 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-05 13:49:06,850 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-05 13:49:06,851 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-05 13:49:06,851 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-05 13:49:06,851 - INFO - API connection ready
+2025-08-05 13:49:06,852 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:07,054 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, marketPrice=0.76, marketValue=760.0, averageCost=76.51145, unrealizedPNL=-5.11, realizedPNL=-61.76, account='DUN086112')
+2025-08-05 13:49:07,169 - INFO - execDetails Execution(execId='00020057.6892b084.01.01', time=datetime.datetime(2025, 8, 5, 17, 44, 23, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=10.0, price=0.66, permId=19774980, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.66, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-05 13:49:07,170 - INFO - execDetails Execution(execId='00020057.6892b0ab.01.01', time=datetime.datetime(2025, 8, 5, 17, 44, 48, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='AMEX', side='SLD', shares=10.0, price=0.6, permId=19774985, clientId=1, orderId=6, liquidation=0, cumQty=10.0, avgPrice=0.6, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-05 13:49:07,171 - INFO - execDetails Execution(execId='00020057.6892b0ad.01.01', time=datetime.datetime(2025, 8, 5, 17, 44, 53, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='BOX', side='BOT', shares=1.0, price=0.61, permId=19774984, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.61, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-05 13:49:07,172 - INFO - execDetails Execution(execId='00020057.6892b2e9.01.01', time=datetime.datetime(2025, 8, 5, 17, 48, 32, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='BOX', side='SLD', shares=1.0, price=0.77, permId=19774988, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.77, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-05 13:49:07,172 - INFO - execDetails Execution(execId='00020057.6892b30a.01.01', time=datetime.datetime(2025, 8, 5, 17, 48, 49, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=10.0, price=0.76, permId=19774991, clientId=0, orderId=0, liquidation=0, cumQty=10.0, avgPrice=0.76, orderRef='', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-08-05 13:49:07,173 - INFO - commissionReport: CommissionReport(execId='00020057.6892b084.01.01', commission=5.1145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-05 13:49:07,173 - INFO - commissionReport: CommissionReport(execId='00020057.6892b0ab.01.01', commission=10.5424, currency='USD', realizedPNL=-75.6569, yield_=0.0, yieldRedemptionDate=0)
+2025-08-05 13:49:07,174 - INFO - commissionReport: CommissionReport(execId='00020057.6892b0ad.01.01', commission=1.05145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-05 13:49:07,174 - INFO - commissionReport: CommissionReport(execId='00020057.6892b2e9.01.01', commission=1.05424, currency='USD', realizedPNL=13.89431, yield_=0.0, yieldRedemptionDate=0)
+2025-08-05 13:49:07,175 - INFO - commissionReport: CommissionReport(execId='00020057.6892b30a.01.01', commission=5.1145, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-08-05 13:49:07,175 - INFO - Synchronization complete
+2025-08-05 13:49:07,175 - INFO - Connected to IBKR. Starting all-day monitoring...
+2025-08-05 13:49:07,176 - INFO - Monitoring all open option positions with stop-loss protection...
+2025-08-05 13:49:07,177 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:08,703 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.72 | Loss: -5.90%
+2025-08-05 13:49:08,703 - INFO - Holding SPY   250805C00630000 | Loss -5.90% is within limit.
+2025-08-05 13:49:18,706 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:20,224 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.73 | Loss: -4.59%
+2025-08-05 13:49:20,224 - INFO - Holding SPY   250805C00630000 | Loss -4.59% is within limit.
+2025-08-05 13:49:30,225 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:31,755 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.72 | Loss: -5.90%
+2025-08-05 13:49:31,755 - INFO - Holding SPY   250805C00630000 | Loss -5.90% is within limit.
+2025-08-05 13:49:41,758 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:43,266 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.69 | Loss: -9.82%
+2025-08-05 13:49:43,266 - INFO - Holding SPY   250805C00630000 | Loss -9.82% is within limit.
+2025-08-05 13:49:53,268 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:49:54,807 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.70 | Loss: -8.51%
+2025-08-05 13:49:54,807 - INFO - Holding SPY   250805C00630000 | Loss -8.51% is within limit.
+2025-08-05 13:50:04,810 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:50:06,325 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.70 | Loss: -8.51%
+2025-08-05 13:50:06,325 - INFO - Holding SPY   250805C00630000 | Loss -8.51% is within limit.
+2025-08-05 13:50:16,328 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:50:17,845 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.73 | Loss: -4.59%
+2025-08-05 13:50:17,845 - INFO - Holding SPY   250805C00630000 | Loss -4.59% is within limit.
+2025-08-05 13:50:27,849 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:50:29,378 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.72 | Loss: -5.90%
+2025-08-05 13:50:29,378 - INFO - Holding SPY   250805C00630000 | Loss -5.90% is within limit.
+2025-08-05 13:50:39,382 - INFO - position: Position(account='DUN086112', contract=Option(conId=801364876, symbol='SPY', lastTradeDateOrContractMonth='20250805', strike=630.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250805C00630000', tradingClass='SPY'), position=10.0, avgCost=76.51145)
+2025-08-05 13:50:40,909 - INFO - Checking SPY   250805C00630000 | Cost: 0.77 | Bid: 0.72 | Loss: -5.90%
+2025-08-05 13:50:40,909 - INFO - Holding SPY   250805C00630000 | Loss -5.90% is within limit.
+2025-08-05 13:50:42,901 - INFO - Disconnecting from 127.0.0.1:7497, 2.79 kB sent in 53 messages, 48.2 kB received in 704 messages, session time 96.1 s.
+2025-08-05 13:50:42,901 - INFO - Disconnecting
+2025-08-05 13:50:42,902 - INFO - Disconnected from IBKR.

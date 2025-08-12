@@ -1,0 +1,52 @@
+2025-08-01 12:56:41,659 - INFO - Connecting to IBKR...
+2025-08-01 12:56:41,660 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-01 12:56:41,660 - INFO - Connected
+2025-08-01 12:56:41,664 - INFO - Logged on to server version 176
+2025-08-01 12:56:41,665 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-01 12:56:41,665 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-08-01 12:56:41,666 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-01 12:56:41,666 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-01 12:56:41,666 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-01 12:56:41,667 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-01 12:56:41,667 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-01 12:56:41,668 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-01 12:56:41,668 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-01 12:56:41,668 - INFO - API connection ready
+2025-08-01 12:56:41,669 - INFO - position: Position(account='DUN086112', contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, avgCost=33.86145)
+2025-08-01 12:56:41,871 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=791562922, symbol='SPY', lastTradeDateOrContractMonth='20250801', strike=625.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250801C00625000', tradingClass='SPY'), position=1.0, marketPrice=0.33, marketValue=33.0, averageCost=33.86145, unrealizedPNL=-0.86, realizedPNL=-41.82, account='DUN086112')
+2025-08-01 12:56:45,978 - INFO - Disconnecting from 127.0.0.1:7497, 119 B sent in 8 messages, 21.7 kB received in 407 messages, session time 4.32 s.
+2025-08-01 12:56:45,978 - INFO - Disconnecting
+2025-08-01 12:56:45,980 - INFO - Disconnected.
+2025-08-01 12:56:45,980 - ERROR - Exception occurred: 
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\main.py", line 11, in main
+    ib = connect_to_ibkr()
+         ^^^^^^^^^^^^^^^^^
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\ibkr_setup.py", line 7, in connect_to_ibkr
+    ib.connect('127.0.0.1', 7497, clientId=1)  # Port 7497 = paper trading
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jsgnc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ib_insync\ib.py", line 279, in connect
+    return self._run(self.connectAsync(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jsgnc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ib_insync\ib.py", line 318, in _run
+    return util.run(*awaitables, timeout=self.RequestTimeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jsgnc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ib_insync\util.py", line 341, in run
+    result = loop.run_until_complete(task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\jsgnc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\ib_insync\ib.py", line 1782, in connectAsync
+    await asyncio.wait_for(self.reqExecutionsAsync(), timeout)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError

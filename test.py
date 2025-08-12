@@ -1,25 +1,30 @@
-from ib_insync import IB, Stock
+from ib_insync import IB, Stock, util
 import time
 
-# Connect to IBKR TWS or Gateway
 ib = IB()
 ib.connect('127.0.0.1', 7497, clientId=1)
 
-# Define a simple stock contract (AAPL)
-contract = Stock(symbol='AAPL', exchange='SMART', currency='USD')
-
-# Qualify the contract (makes sure IB recognizes it)
+contract = Stock(symbol='TSLA', exchange='SMART', currency='USD')
 ib.qualifyContracts(contract)
+print("✅ Contract qualified:", contract)
 
-# Request live market data
-ticker = ib.reqMktData(contract, '', False, False)
+ib.reqMarketDataType(1)
+ticker = ib.reqMktData(contract)
 
-# Wait for data to arrive
-time.sleep(2)
+start_time = time.time()
+timeout = 60  # seconds
 
-# Print what we got
-print(f"Bid: {ticker.bid}, Ask: {ticker.ask}, Last: {ticker.last}")
+print("📡 Listening for live market data (press Ctrl+C to stop)...")
 
-# Clean up
+try:
+    while time.time() - start_time < timeout:
+        ib.sleep(0.5)
+        print(f"⏱️ {round(time.time() - start_time, 1)}s | Bid: {ticker.bid}, Ask: {ticker.ask}, Last: {ticker.last}")
+except KeyboardInterrupt:
+    print("\n🛑 Interrupted by user.")
+
+print("\n✅ Auto-shutdown.")
+util.tree(ticker)
+
 ib.cancelMktData(contract)
 ib.disconnect()

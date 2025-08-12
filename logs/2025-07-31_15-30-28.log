@@ -1,0 +1,31 @@
+2025-07-31 15:30:28,361 - INFO - Connecting to IBKR...
+2025-07-31 15:30:28,362 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-07-31 15:30:28,363 - INFO - Connected
+2025-07-31 15:30:28,365 - INFO - Logged on to server version 176
+2025-07-31 15:30:28,366 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-07-31 15:30:28,366 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-07-31 15:30:28,366 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-07-31 15:30:28,367 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-07-31 15:30:28,367 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-07-31 15:30:28,367 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-07-31 15:30:28,368 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-07-31 15:30:28,368 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-07-31 15:30:28,368 - INFO - API connection ready
+2025-07-31 15:30:28,369 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-07-31 15:30:28,369 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-07-31 15:30:28,370 - INFO - position: Position(account='DUN086112', contract=Option(conId=757334728, symbol='SPY', lastTradeDateOrContractMonth='20250731', strike=634.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250731C00634000', tradingClass='SPY'), position=1.0, avgCost=79.86365)
+2025-07-31 15:30:28,672 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=757334728, symbol='SPY', lastTradeDateOrContractMonth='20250731', strike=634.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250731C00634000', tradingClass='SPY'), position=1.0, marketPrice=0.6248188, marketValue=62.48, averageCost=79.86365, unrealizedPNL=-17.38, realizedPNL=0.0, account='DUN086112')
+2025-07-31 15:30:28,816 - INFO - execDetails Execution(execId='00020057.688bd513.01.01', time=datetime.datetime(2025, 7, 31, 19, 21, 42, tzinfo=datetime.timezone.utc), acctNumber='DUN086112', exchange='SAPPHIRE', side='BOT', shares=1.0, price=0.79, permId=1398030001, clientId=0, orderId=0, liquidation=0, cumQty=1.0, avgPrice=0.79, orderRef='OptionChain', evRule='', evMultiplier=0.0, modelCode='', lastLiquidity=2)
+2025-07-31 15:30:28,816 - INFO - commissionReport: CommissionReport(execId='00020057.688bd513.01.01', commission=0.86365, currency='USD', realizedPNL=0.0, yield_=0.0, yieldRedemptionDate=0)
+2025-07-31 15:30:28,817 - INFO - Synchronization complete
+2025-07-31 15:30:28,818 - INFO - Defining option contract: SPY 20250731 634 C
+2025-07-31 15:30:28,967 - INFO - Monitoring contract: Option(conId=757334728, symbol='SPY', lastTradeDateOrContractMonth='20250731', strike=634.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='SPY   250731C00634000', tradingClass='SPY')
+2025-07-31 15:30:28,967 - INFO - Stop-loss price set at: $6.46
+2025-07-31 15:30:28,968 - INFO - Subscribing to market data...
+2025-07-31 15:30:30,483 - INFO - Price: 0.66 | Loss: -90.29% | Trigger: -5%
+2025-07-31 15:30:30,483 - INFO - Stop-loss triggered at 0.66. Sending sell order...
+2025-07-31 15:30:30,484 - INFO - placeOrder: New order Trade(contract=Option(conId=757334728, symbol='SPY', lastTradeDateOrContractMonth='20250731', strike=634.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='SPY   250731C00634000', tradingClass='SPY'), order=LimitOrder(orderId=5, clientId=1, action='SELL', totalQuantity=1, lmtPrice=0.66), orderStatus=OrderStatus(orderId=5, status='PendingSubmit', filled=0.0, remaining=0.0, avgFillPrice=0.0, permId=0, parentId=0, lastFillPrice=0.0, clientId=0, whyHeld='', mktCapPrice=0.0), fills=[], log=[TradeLogEntry(time=datetime.datetime(2025, 7, 31, 19, 30, 30, 484372, tzinfo=datetime.timezone.utc), status='PendingSubmit', message='', errorCode=0)], advancedError='')
+2025-07-31 15:30:32,493 - WARNING - Order not filled. Status: PendingSubmit
+2025-07-31 15:30:32,494 - INFO - Disconnecting from 127.0.0.1:7497, 507 B sent in 12 messages, 24.2 kB received in 488 messages, session time 4.13 s.
+2025-07-31 15:30:32,495 - INFO - Disconnecting
+2025-07-31 15:30:32,495 - INFO - Disconnected from IBKR.

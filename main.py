@@ -1,11 +1,11 @@
 # main.py
 
-from ibkr_setup import connect_to_ibkr, define_option_contract
-from stop_loss_logic import monitor_stop_loss
-from config import OPTION_SYMBOL, OPTION_EXPIRY, OPTION_STRIKE, OPTION_RIGHT, STOP_PRICE
-from logger import logging
 import time
+from ibkr_setup import connect_to_ibkr
+from stop_loss_logic import monitor_all_positions
+from logger import logging
 
+CHECK_INTERVAL_SECONDS = 10  # how often to re-check positions
 
 def main():
     logger = logging.getLogger("stop_loss_bot")
@@ -14,17 +14,15 @@ def main():
     try:
         logger.info("Connecting to IBKR...")
         ib = connect_to_ibkr()
+        logger.info("Connected to IBKR. Starting all-day monitoring...")
 
-        logger.info(f"Defining option contract: {OPTION_SYMBOL} {OPTION_EXPIRY} {OPTION_STRIKE} {OPTION_RIGHT}")
-        contract = define_option_contract(ib, OPTION_SYMBOL, OPTION_EXPIRY, OPTION_STRIKE, OPTION_RIGHT)
-
-        logger.info(f"Monitoring contract: {contract}")
-        logger.info(f"Stop-loss price set at: ${STOP_PRICE}")
-
-        monitor_stop_loss(ib, contract, STOP_PRICE, logger)
+        while True:
+            monitor_all_positions(ib, logger)
+            time.sleep(CHECK_INTERVAL_SECONDS)
 
     except Exception as e:
-        logger.exception(f"Exception occurred during monitoring: {e}")
+        logger.exception(f"Unexpected error during monitoring: {e}")
+
     finally:
         if ib and ib.isConnected():
             ib.disconnect()
@@ -33,4 +31,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

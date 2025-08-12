@@ -1,0 +1,22 @@
+2025-07-30 10:37:21,877 - INFO - Connecting to IBKR...
+2025-07-30 10:37:21,878 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-07-30 10:37:21,879 - INFO - Connected
+2025-07-30 10:37:21,881 - INFO - Logged on to server version 176
+2025-07-30 10:37:21,881 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-07-30 10:37:21,882 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfuture
+2025-07-30 10:37:21,882 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt.nj
+2025-07-30 10:37:21,882 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-07-30 10:37:21,883 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-07-30 10:37:21,883 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-07-30 10:37:21,883 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-07-30 10:37:21,884 - INFO - API connection ready
+2025-07-30 10:37:22,186 - INFO - Synchronization complete
+2025-07-30 10:37:22,187 - INFO - Defining option contract: TSLA 20250801 330 C
+2025-07-30 10:37:22,404 - INFO - Monitoring contract: Option(conId=791241016, symbol='TSLA', lastTradeDateOrContractMonth='20250801', strike=330.0, right='C', multiplier='100', exchange='SMART', currency='USD', localSymbol='TSLA  250801C00330000', tradingClass='TSLA')
+2025-07-30 10:37:22,405 - INFO - Stop-loss price set at: $6.46
+2025-07-30 10:37:22,406 - INFO - Subscribing to market data...
+2025-07-30 10:37:22,693 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-07-30 10:37:23,915 - INFO - Price: nan | Loss: nan% | Trigger: -5%
+2025-07-30 10:37:23,915 - INFO - Disconnecting from 127.0.0.1:7497, 276 B sent in 11 messages, 19.9 kB received in 401 messages, session time 2.04 s.
+2025-07-30 10:37:23,916 - INFO - Disconnecting
+2025-07-30 10:37:23,916 - INFO - Disconnected from IBKR.
