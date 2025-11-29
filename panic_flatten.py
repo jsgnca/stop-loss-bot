@@ -13,7 +13,7 @@ so you never accidentally connect to the wrong environment.
 """
 
 from ib_insync import IB, Position, Contract, MarketOrder
-import keyboard
+import keyboard # type: ignore
 import time
 import logging
 from typing import List, Optional
