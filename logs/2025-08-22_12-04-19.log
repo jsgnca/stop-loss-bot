@@ -1,0 +1,1056 @@
+2025-08-22 12:04:19,726 - INFO - Connecting to IBKR...
+2025-08-22 12:04:19,727 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-08-22 12:04:19,728 - INFO - Connected
+2025-08-22 12:04:19,752 - INFO - Logged on to server version 176
+2025-08-22 12:04:19,757 - INFO - API connection ready
+2025-08-22 12:04:19,761 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-08-22 12:04:19,761 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-08-22 12:04:19,761 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usopt
+2025-08-22 12:04:19,762 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-08-22 12:04:19,762 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-08-22 12:04:19,763 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-08-22 12:04:19,763 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-08-22 12:04:19,763 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-08-22 12:04:20,166 - INFO - Synchronization complete
+2025-08-22 12:04:20,167 - INFO - Connected to IBKR. Starting all-day monitoring...
+2025-08-22 12:04:20,168 - INFO - Monitoring all open option positions with stop-loss protection...
+2025-08-22 12:04:20,379 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:21,587 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:22,789 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:24,000 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:25,217 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:26,427 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:27,636 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:28,840 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:30,058 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:31,264 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:32,467 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:33,678 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:34,889 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:36,100 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:37,311 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:38,526 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:39,741 - INFO - No open option positions found. Sleeping before next check...
+2025-08-22 12:04:40,742 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=2.0, avgCost=148.0)
+2025-08-22 12:04:40,743 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=3.0, avgCost=148.0)
+2025-08-22 12:04:40,745 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=4.0, avgCost=148.0)
+2025-08-22 12:04:40,746 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.0)
+2025-08-22 12:04:40,747 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.10229)
+2025-08-22 12:04:40,747 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.171435)
+2025-08-22 12:04:40,748 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.24158)
+2025-08-22 12:04:40,749 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:40,750 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:40,994 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, marketPrice=1.47000005, marketValue=1470.0, averageCost=148.66245, unrealizedPNL=-16.62, realizedPNL=0.0, account='DUN086112')
+2025-08-22 12:04:41,508 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:41,509 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:42,512 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:43,165 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:43,165 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:44,168 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:44,801 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:04:44,801 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:04:45,804 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:46,429 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:04:46,429 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:04:47,432 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:48,052 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:48,052 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:49,055 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:49,662 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:49,662 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:50,665 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:51,264 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.47 | Loss: -1.12%
+2025-08-22 12:04:51,264 - INFO - Holding SPY   250822C00645000 | Loss -1.12% is within limit.
+2025-08-22 12:04:52,268 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:52,884 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:52,884 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:53,887 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:54,515 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:54,515 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:55,517 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:56,133 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:56,133 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:04:57,136 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:57,737 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.47 | Loss: -1.12%
+2025-08-22 12:04:57,737 - INFO - Holding SPY   250822C00645000 | Loss -1.12% is within limit.
+2025-08-22 12:04:58,740 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:04:59,356 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:04:59,356 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:00,359 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:00,991 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:00,991 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:01,994 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:02,611 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:02,611 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:03,614 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:04,247 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:04,247 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:05,249 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:05,865 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:05,865 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:06,868 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:07,501 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:07,501 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:08,504 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:09,110 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:05:09,110 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:05:10,113 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:10,713 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:10,713 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:11,717 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:12,339 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:12,339 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:13,342 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:13,956 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:05:13,956 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:05:14,959 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:15,586 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:15,586 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:16,590 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:17,213 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:17,213 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:18,216 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:18,841 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:18,841 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:19,844 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:20,452 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:20,452 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:21,455 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:22,090 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:22,090 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:23,094 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:23,709 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:23,709 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:24,712 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:25,334 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:05:25,334 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:05:26,337 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:26,954 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:05:26,954 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:05:26,955 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:05:27,959 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:28,591 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:05:28,591 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:05:28,592 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:05:29,595 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:30,218 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:05:30,218 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:05:30,219 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:05:31,222 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:31,837 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:05:31,837 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:05:32,841 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:33,457 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.41 | Loss: -5.15%
+2025-08-22 12:05:33,457 - INFO - Holding SPY   250822C00645000 | Loss -5.15% is within limit.
+2025-08-22 12:05:34,461 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:35,080 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.41 | Loss: -5.15%
+2025-08-22 12:05:35,080 - INFO - Holding SPY   250822C00645000 | Loss -5.15% is within limit.
+2025-08-22 12:05:36,083 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:36,709 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:36,709 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:37,711 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:38,338 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:38,338 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:39,341 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:39,943 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:39,943 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:40,946 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:41,571 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:41,571 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:42,574 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:43,204 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:43,204 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:44,207 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:44,820 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:05:44,820 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:05:45,822 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:46,439 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:46,439 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:05:47,443 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:48,076 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:48,076 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:49,079 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:49,698 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:05:49,699 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:05:50,701 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:51,330 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:05:51,330 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:05:52,333 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:52,945 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.44 | Loss: -3.14%
+2025-08-22 12:05:52,945 - INFO - Holding SPY   250822C00645000 | Loss -3.14% is within limit.
+2025-08-22 12:05:53,948 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:54,578 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:05:54,578 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:05:55,581 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:56,194 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.42 | Loss: -4.48%
+2025-08-22 12:05:56,194 - INFO - Holding SPY   250822C00645000 | Loss -4.48% is within limit.
+2025-08-22 12:05:57,198 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:57,815 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:05:57,815 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:05:58,818 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:05:59,451 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:05:59,451 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:06:00,454 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:01,067 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.47 | Loss: -1.12%
+2025-08-22 12:06:01,067 - INFO - Holding SPY   250822C00645000 | Loss -1.12% is within limit.
+2025-08-22 12:06:02,070 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:02,686 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.47 | Loss: -1.12%
+2025-08-22 12:06:02,686 - INFO - Holding SPY   250822C00645000 | Loss -1.12% is within limit.
+2025-08-22 12:06:03,690 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:04,305 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:06:04,305 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:06:05,309 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:05,928 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.46 | Loss: -1.79%
+2025-08-22 12:06:05,928 - INFO - Holding SPY   250822C00645000 | Loss -1.79% is within limit.
+2025-08-22 12:06:06,931 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:07,561 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.45 | Loss: -2.46%
+2025-08-22 12:06:07,561 - INFO - Holding SPY   250822C00645000 | Loss -2.46% is within limit.
+2025-08-22 12:06:08,563 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:09,194 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:06:09,194 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:06:10,198 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:10,816 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.42 | Loss: -4.48%
+2025-08-22 12:06:10,816 - INFO - Holding SPY   250822C00645000 | Loss -4.48% is within limit.
+2025-08-22 12:06:11,820 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:12,426 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.41 | Loss: -5.15%
+2025-08-22 12:06:12,426 - INFO - Holding SPY   250822C00645000 | Loss -5.15% is within limit.
+2025-08-22 12:06:13,429 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:14,060 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:06:14,060 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:06:15,063 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:15,675 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:06:15,675 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:06:16,678 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:17,293 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:06:17,293 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:06:18,295 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:18,909 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:06:18,909 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:06:18,910 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:19,912 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:20,538 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:06:20,539 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:06:20,540 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:21,543 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:22,173 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:06:22,173 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:06:22,174 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:23,176 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:23,795 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:23,795 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:23,796 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:24,800 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:25,418 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:25,418 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:25,419 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:26,422 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:27,059 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:06:27,059 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:06:27,060 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:28,062 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:28,674 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:06:28,674 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:06:28,675 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:29,677 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:30,293 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:06:30,293 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:06:30,294 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:31,297 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:31,915 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:31,915 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:31,916 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:32,918 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:33,547 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:06:33,547 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:06:33,548 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:34,551 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:35,160 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:06:35,160 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:06:35,161 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:36,163 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:36,798 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:06:36,798 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:06:36,799 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:37,801 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:38,411 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:38,411 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:38,412 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:39,414 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:40,045 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:40,045 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:40,046 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:41,048 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:41,661 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.33 | Loss: -10.54%
+2025-08-22 12:06:41,661 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -10.54%
+2025-08-22 12:06:41,662 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:42,664 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:43,280 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.33 | Loss: -10.54%
+2025-08-22 12:06:43,280 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -10.54%
+2025-08-22 12:06:43,281 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:44,284 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:44,895 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:06:44,895 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:06:44,896 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:45,898 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:46,513 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:46,513 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:46,514 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:47,517 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:48,125 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:48,125 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:48,126 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:49,129 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:49,757 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.31 | Loss: -11.88%
+2025-08-22 12:06:49,757 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.88%
+2025-08-22 12:06:49,758 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:50,760 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:51,379 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:51,379 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:51,380 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:52,383 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:53,008 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:06:53,008 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:06:53,009 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:54,011 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:54,636 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:54,636 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:54,637 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:55,640 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:56,257 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:56,257 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:56,258 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:57,260 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:57,871 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:06:57,871 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:06:57,872 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:06:58,875 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:06:59,485 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:06:59,485 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:06:59,486 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:00,489 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:01,098 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:07:01,098 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:07:01,099 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:02,101 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:02,731 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.33 | Loss: -10.54%
+2025-08-22 12:07:02,731 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -10.54%
+2025-08-22 12:07:02,732 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:03,735 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:04,349 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:04,349 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:04,350 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:05,353 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:05,979 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:05,979 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:06,982 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:07,601 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:07,601 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:07,602 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:08,605 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:09,223 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:09,223 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:09,224 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:10,226 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:10,843 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:10,843 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:10,844 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:11,846 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:12,453 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:12,453 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:13,456 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:14,071 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:14,071 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:15,074 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:15,688 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:07:15,688 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:07:16,692 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:17,311 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:17,311 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:18,314 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:18,913 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:07:18,913 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:07:19,917 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:20,529 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:20,529 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:20,530 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:21,533 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:22,146 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:22,146 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:22,147 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:23,149 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:23,758 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:07:23,758 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:07:23,759 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:24,763 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:25,380 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:25,380 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:25,381 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:26,384 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:27,008 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:07:27,008 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:07:27,009 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:28,011 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:28,623 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:07:28,623 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:07:28,624 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:29,626 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:30,258 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:07:30,258 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:07:30,259 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:31,261 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:31,880 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:31,880 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:31,881 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:32,883 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:33,502 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:33,502 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:33,503 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:34,506 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:35,126 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.36 | Loss: -8.52%
+2025-08-22 12:07:35,126 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -8.52%
+2025-08-22 12:07:35,127 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:36,130 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:36,753 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:36,753 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:37,756 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:38,375 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:38,375 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:39,378 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:39,990 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:39,990 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:40,993 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:41,298 - INFO - updatePortfolio: PortfolioItem(contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', primaryExchange='AMEX', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, marketPrice=1.4, marketValue=1400.0, averageCost=148.66245, unrealizedPNL=-86.62, realizedPNL=0.0, account='DUN086112')
+2025-08-22 12:07:41,605 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:41,605 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:41,606 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:42,608 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:43,221 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:43,221 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:44,223 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:44,839 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:44,839 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:45,843 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:46,453 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:46,453 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:47,456 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:48,086 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:48,086 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:49,089 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:49,715 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:49,715 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:07:50,717 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:51,335 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:07:51,336 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:07:52,339 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:52,946 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:52,946 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:52,947 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:53,950 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:54,577 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:07:54,577 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:07:55,580 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:56,202 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:07:56,202 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:07:56,203 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:07:57,205 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:57,827 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.39 | Loss: -6.50%
+2025-08-22 12:07:57,827 - INFO - Holding SPY   250822C00645000 | Loss -6.50% is within limit.
+2025-08-22 12:07:58,831 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:07:59,460 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:07:59,460 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:08:00,463 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:01,093 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:08:01,093 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:08:02,096 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:02,713 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.43 | Loss: -3.81%
+2025-08-22 12:08:02,713 - INFO - Holding SPY   250822C00645000 | Loss -3.81% is within limit.
+2025-08-22 12:08:03,716 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:04,329 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:08:04,329 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:08:05,332 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:05,952 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:08:05,952 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:08:06,955 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:07,588 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.40 | Loss: -5.83%
+2025-08-22 12:08:07,588 - INFO - Holding SPY   250822C00645000 | Loss -5.83% is within limit.
+2025-08-22 12:08:08,591 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:09,211 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.37 | Loss: -7.84%
+2025-08-22 12:08:09,211 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -7.84%
+2025-08-22 12:08:09,212 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:10,214 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:10,823 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.38 | Loss: -7.17%
+2025-08-22 12:08:10,823 - INFO - Holding SPY   250822C00645000 | Loss -7.17% is within limit.
+2025-08-22 12:08:11,825 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:12,452 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:08:12,452 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:08:12,453 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:13,456 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:14,069 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.35 | Loss: -9.19%
+2025-08-22 12:08:14,069 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.19%
+2025-08-22 12:08:14,070 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:15,072 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:15,670 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:08:15,670 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:08:15,671 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:16,674 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:17,280 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:08:17,281 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:08:17,282 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:18,284 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:18,918 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.33 | Loss: -10.54%
+2025-08-22 12:08:18,918 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -10.54%
+2025-08-22 12:08:18,919 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:19,921 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:20,536 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:08:20,536 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:08:20,537 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:21,541 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:22,161 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:08:22,161 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:08:22,162 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:23,165 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:23,784 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:08:23,784 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:08:23,785 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:24,787 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:25,417 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:25,417 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:25,418 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:26,421 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:27,038 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:08:27,038 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:08:27,039 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:28,042 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:28,652 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:28,652 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:28,653 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:29,655 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:30,269 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:08:30,269 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:08:30,270 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:31,272 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:31,892 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:31,892 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:31,893 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:32,895 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:33,511 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:33,511 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:33,512 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:34,514 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:35,136 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:35,136 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:35,137 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:36,140 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:36,763 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.26 | Loss: -15.24%
+2025-08-22 12:08:36,763 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -15.24%
+2025-08-22 12:08:36,764 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:37,767 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:38,400 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.27 | Loss: -14.57%
+2025-08-22 12:08:38,400 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -14.57%
+2025-08-22 12:08:38,401 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:39,403 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:40,019 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.27 | Loss: -14.57%
+2025-08-22 12:08:40,020 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -14.57%
+2025-08-22 12:08:40,021 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:41,023 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:41,629 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.27 | Loss: -14.57%
+2025-08-22 12:08:41,629 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -14.57%
+2025-08-22 12:08:41,630 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:42,633 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:43,241 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.27 | Loss: -14.57%
+2025-08-22 12:08:43,241 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -14.57%
+2025-08-22 12:08:43,242 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:44,244 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:44,860 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:44,861 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:44,861 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:45,863 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:46,461 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:46,461 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:46,462 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:47,464 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:48,061 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.30 | Loss: -12.55%
+2025-08-22 12:08:48,061 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -12.55%
+2025-08-22 12:08:48,062 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:49,064 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:49,675 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:49,675 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:49,676 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:50,679 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:51,293 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.31 | Loss: -11.88%
+2025-08-22 12:08:51,293 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.88%
+2025-08-22 12:08:51,294 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:52,297 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:52,931 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:52,931 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:52,933 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:53,935 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:54,560 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:54,560 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:54,561 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:55,563 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:56,169 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:56,169 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:56,170 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:57,172 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:57,788 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.29 | Loss: -13.23%
+2025-08-22 12:08:57,788 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.23%
+2025-08-22 12:08:57,789 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:08:58,792 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:08:59,423 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:08:59,423 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:08:59,424 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:00,427 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:01,063 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.28 | Loss: -13.90%
+2025-08-22 12:09:01,063 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -13.90%
+2025-08-22 12:09:01,064 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:02,067 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:02,663 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.31 | Loss: -11.88%
+2025-08-22 12:09:02,663 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.88%
+2025-08-22 12:09:02,664 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:03,667 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:04,289 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.34 | Loss: -9.86%
+2025-08-22 12:09:04,289 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -9.86%
+2025-08-22 12:09:04,290 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:05,293 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:05,907 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:09:05,907 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:09:05,908 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:06,910 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:07,228 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:07,269 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:07,543 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:09:07,543 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:09:07,544 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:08,546 - INFO - position: Position(account='DUN086112', contract=Option(conId=797601892, symbol='SPY', lastTradeDateOrContractMonth='20250822', strike=645.0, right='C', multiplier='100', currency='USD', localSymbol='SPY   250822C00645000', tradingClass='SPY'), position=10.0, avgCost=148.66245)
+2025-08-22 12:09:13,354 - INFO - Checking SPY   250822C00645000 | Cost: 1.49 | Bid: 1.32 | Loss: -11.21%
+2025-08-22 12:09:13,354 - WARNING - STOP-LOSS TRIGGERED for SPY   250822C00645000 | Loss: -11.21%
+2025-08-22 12:09:13,354 - ERROR - SPY   250822C00645000: error in limit->market exit: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+Traceback (most recent call last):
+  File "C:\Users\jsgnc\Desktop\stop-loss-bot\stop_loss_logic.py", line 103, in monitor_all_positions
+    filled, _ = place_limit_ioc_then_market(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: place_limit_ioc_then_market() got an unexpected keyword argument 'wait_sec'
+2025-08-22 12:09:13,638 - INFO - Disconnecting from 127.0.0.1:7497, 36.0 kB sent in 689 messages, 459 kB received in 6115 messages, session time 294 s.
+2025-08-22 12:09:13,639 - INFO - Disconnecting
+2025-08-22 12:09:13,640 - INFO - Disconnected from IBKR.

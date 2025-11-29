@@ -1,33 +1,46 @@
 # main.py
 
-import time
+from ib_insync import util
+import sys
+from logger import setup_logger            # uses the minimal logger file I sent
 from ibkr_setup import connect_to_ibkr
 from stop_loss_logic import monitor_all_positions
-from logger import logging
 
-CHECK_INTERVAL_SECONDS = 10  # how often to re-check positions
+CHECK_INTERVAL_SECONDS = 1.0  # 1s loop for options; reduces missed triggers
 
 def main():
-    logger = logging.getLogger("stop_loss_bot")
+    log = setup_logger(name="stop_loss_bot")
     ib = None
 
     try:
-        logger.info("Connecting to IBKR...")
+        log.info("Connecting to IBKR...")
         ib = connect_to_ibkr()
-        logger.info("Connected to IBKR. Starting all-day monitoring...")
+        util.startLoop()  # ensure ib_insync's event loop is running
+        log.info("Connected to IBKR. Starting all-day monitoring...")
 
         while True:
-            monitor_all_positions(ib, logger)
-            time.sleep(CHECK_INTERVAL_SECONDS)
+            monitor_all_positions(ib, log)
+            # use ib.sleep so the event loop continues processing ticks & fills
+            ib.sleep(CHECK_INTERVAL_SECONDS)
+
+    except KeyboardInterrupt:
+        log.info("KeyboardInterrupt: shutting down...")
 
     except Exception as e:
-        logger.exception(f"Unexpected error during monitoring: {e}")
+        # full traceback + message
+        log.exception(f"Unexpected error during monitoring: {e}")
 
     finally:
         if ib and ib.isConnected():
             ib.disconnect()
-            logger.info("Disconnected from IBKR.")
-
+            log.info("Disconnected from IBKR.")
 
 if __name__ == "__main__":
-    main()
+    # Allow clean exit codes for shells/PM2/etc.
+    try:
+        main()
+        sys.exit(0)
+    except SystemExit as se:
+        raise
+    except Exception:
+        sys.exit(1)

@@ -1,23 +1,37 @@
 # logger.py
-
 import logging
-from datetime import datetime
-import os
+from logging.handlers import RotatingFileHandler
 
-# Ensure logs directory exists
-LOG_DIR = "logs"
-os.makedirs(LOG_DIR, exist_ok=True)
+def setup_logger(name: str = "stoploss",
+                 log_file: str = "bot.log",
+                 level: str = "INFO") -> logging.Logger:
+    """
+    Console + rotating file logger.
+    Usage:
+        from logger import setup_logger
+        log = setup_logger()
+        log.info("hello")
+    """
+    logger = logging.getLogger(name)
+    if logger.handlers:
+        return logger  # already configured
 
-# Generate unique log file per session
-log_filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S.log")
-log_path = os.path.join(LOG_DIR, log_filename)
+    lvl = getattr(logging, level.upper(), logging.INFO)
+    logger.setLevel(lvl)
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(log_path),
-        logging.StreamHandler()
-    ]
-)
+    fmt = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
+
+    ch = logging.StreamHandler()
+    ch.setFormatter(fmt)
+    ch.setLevel(lvl)
+
+    fh = RotatingFileHandler(log_file, maxBytes=2_000_000, backupCount=3)
+    fh.setFormatter(fmt)
+    fh.setLevel(lvl)
+
+    logger.addHandler(ch)
+    logger.addHandler(fh)
+
+    # Don’t duplicate logs up the root logger
+    logger.propagate = False
+    return logger
